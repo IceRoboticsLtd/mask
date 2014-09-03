@@ -2,7 +2,7 @@
     appDir: '../pre-public',
     mainConfigFile: '../pre-public/js/common.js',
     dir: '../public',
-	optimizeCss: "standard",
+	optimizeCss: 'standard',
     modules: [
         //First set up the common build layer.
         {
@@ -11,16 +11,7 @@
             //List common dependencies here. Only need to list
             //top level dependencies, "include" will find
             //nested dependencies.
-            include: ['jquery',
-                      'app/lib',
-                      'app/controller/Base',
-                      'app/model/Base',
-					  'app/modelController/Base',
-					  'app/modelService/Base',
-					  'app/serviceBus/Base',
-					  'app/view/Base',
-					  'app/viewController/Base',
-					  'app/viewService/Base'
+            include: ['jquery'
             ]
         },
 
@@ -37,21 +28,8 @@
         //That loading sequence is controlled in page1.js.
         {
             //module names are relative to baseUrl/paths config
-            name: 'app/main1',
-            exclude: ['../common']
-        },
-
-        {
-            //module names are relative to baseUrl
-            name: 'app/main2',
-            exclude: ['../common']
-        },
-
-        {
-            //module names are relative to baseUrl
-            name: 'app/main3',
+            name: 'app/main',
             exclude: ['../common']
         }
-
     ]
 }
