@@ -103,7 +103,7 @@ var managePreparationForShutdown = function(callback) {
 var app = express();
 // Port
 if(typeof configs.app_port === 'undefined'){
-	var app_port = process.env.PORT || 3000;
+	var app_port = process.env.PORT || 2000;
 }
 else {
 	var app_port = configs.app_port;
@@ -128,7 +128,7 @@ else {
 var api = express();
 // Port
 if(typeof configs.api_port === 'undefined'){
-	var api_port = app_port+1 || 3001;
+	var api_port = app_port+1 || 2001;
 }
 else {
 	var api_port = configs.api_port;
