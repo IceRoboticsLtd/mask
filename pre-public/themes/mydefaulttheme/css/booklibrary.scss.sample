@@ -1,0 +1,45 @@
+#appBody {
+    margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+	vertical-align: middle;
+}
+
+.green {
+	color: #090;
+}
+
+.red {
+	color: #c00;
+}
+
+.navbar-brand {
+    font-size: 28px;
+}
+
+body {
+    background-color: #eee;
+}
+
+.bookContainer {
+    border: 1px solid #aaa;
+    width: 300px;
+    height: 130px;
+    background-color: #fff;
+    float: left;
+    margin: 5px;
+}
+.bookContainer img {
+    float: left;
+    margin: 10px;
+}
+.bookContainer ul {
+    list-style-type: none;
+}
