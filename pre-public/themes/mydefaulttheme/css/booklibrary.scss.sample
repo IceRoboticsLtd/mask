@@ -42,6 +42,11 @@ body {
 }
 .bookContainer ul {
     list-style-type: none;
+	margin-bottom: 0;
+}
+.bookContainer button {
+    float:right;
+    margin: 10px;
 }
 #addBook label {
     width:100px;
