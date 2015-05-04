@@ -1,18 +1,18 @@
 module.exports.configs = {
 	host : 'yourhostname.com', // put your host name here
-	server_port : 12080, // put your server port number here
+	server_port : 11080, // put your server port number here
 	server_prefix: 'MASK', // put your server prefix here (e.g. 'MASK')	
-	app_port : 2000, // put your port number here
+	app_port : 1000, // put your port number here
 	app_gid : 'root', // put your group id here
 	app_uid : 'root', // put your user id here
 	app_list: {
 		'mydefaulttheme': { views: [0] }
 	}, // put your apps here
-	api_port : 2001, // put your port number here
+	api_port : 1001, // put your port number here
 	api_gid : 'root', // put your group id here
 	api_uid : 'root', // put your user id here
 	api_list: {}, // put your apis here
-	cmd_port: 2002, // put your port number here
+	cmd_port: 1002, // put your port number here
 	action_list: {
 		'read': true,
 		'write': true
