@@ -45,7 +45,7 @@
     "ejs": "*",
     "i18n-2": ">=0.4.6",
     "mime": ">=1.2.11",
-    "tacit-server": "^1.0.1"
+    "tacit-server": "^1.0.8007"
   },
   "devDependencies": {
     "grunt-contrib-uglify": "0.1.1",
